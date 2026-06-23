@@ -4,10 +4,6 @@ A single-file attack-surface recon pipeline. It chains subdomain discovery,
 live-host probing, port sweeping, passive URL harvesting and template
 scanning into one reproducible run with structured output.
 
-Built around the [ProjectDiscovery](https://github.com/projectdiscovery)
-toolchain - reconx orchestrates them, normalizes the results and writes a
-clean report you can drop straight into an engagement.
-
 ![demo](reconx.png)
 
 ## Install
