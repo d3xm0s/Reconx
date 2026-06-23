@@ -18,7 +18,7 @@ cd reconx
 chmod +x reconx.py
 ```
 
-No Python dependencies beyond the stdlib. The external scanners are optional —
+No Python dependencies beyond the stdlib. The external scanners are optional -
 any missing tool simply degrades that stage instead of failing the run.
 
 | stage         | tool                  |
@@ -81,7 +81,7 @@ ready-to-paste summary table.
 ## Notes
 
 Use only against assets you are authorized to test. Passive stages are quiet,
-but `naabu` and `nuclei` are active and will show up in target logs — scope
+but `naabu` and `nuclei` are active and will show up in target logs - scope
 them with the `--no-*` flags when needed.
 
 ## License
