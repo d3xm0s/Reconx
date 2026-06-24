@@ -82,5 +82,5 @@ them with the `--no-*` flags when needed.
 
 ## License
 
-MIT
-Copyright (c) 2026 d3xm0s
+Copyright (c) 2026 d3xm0s. All rights reserved.
+
