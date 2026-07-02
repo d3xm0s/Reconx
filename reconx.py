@@ -57,7 +57,7 @@ def die(msg: str):
     sys.exit(1)
 
 
-# ── external tooling ────────────────────────────────────────────────
+# external tooling 
 
 @dataclass
 class Tool:
@@ -86,7 +86,7 @@ def stream_lines(out: str) -> list[str]:
     return [l.strip() for l in out.splitlines() if l.strip()]
 
 
-# ── results model ───────────────────────────────────────────────────
+# results model 
 
 @dataclass
 class Host:
@@ -112,7 +112,7 @@ class Findings:
         return json.dumps(d, indent=2, ensure_ascii=False)
 
 
-# ── pipeline ────────────────────────────────────────────────────────
+# pipeline 
 
 class Recon:
     def __init__(self, target: str, outdir: Path, threads: int, opts):
@@ -317,7 +317,7 @@ class Recon:
                  f"{C.GR}({len(self.f.vulns)} findings){C.RST}")
 
 
-# ── cli ─────────────────────────────────────────────────────────────
+# cli 
 
 def preflight():
     core = [Tool("subfinder"), Tool("httpx"), Tool("nuclei")]
