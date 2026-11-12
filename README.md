@@ -1,4 +1,4 @@
-# reconx
+# Reconx
 
 A single-file attack-surface recon pipeline. It chains subdomain discovery,
 live-host probing, port sweeping, passive URL harvesting and template
